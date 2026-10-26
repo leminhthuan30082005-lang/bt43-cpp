@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bài tập 42 | Hình ảnh cá nhân</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f2f6fd;color:#16243a}header{background:linear-gradient(110deg,#13294c,#2857a7);color:white;text-align:center;padding:35px 15px}main{max-width:900px;margin:25px auto;padding:0 16px}.panel{background:white;border-radius:16px;padding:26px;box-shadow:0 5px 18px #10213b15}.photos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.photo{border:1px solid #dce5f1;border-radius:14px;padding:14px;text-align:center;background:#f7faff}.photo img{width:100%;max-width:320px;height:250px;object-fit:cover;border-radius:10px}.missing{height:250px;display:none;align-items:center;justify-content:center;border-radius:10px;background:#e6efff;color:#2152a0;padding:15px;line-height:1.6;overflow-wrap:anywhere}a{color:#2563eb}.back{display:inline-block;background:#2563eb;color:white;text-decoration:none;padding:12px 18px;border-radius:9px;margin-top:18px}.note{color:#62738b;line-height:1.6}@media(max-width:600px){.photos{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><h1>📸 Kết quả bài tập 42</h1><p>Trang hiển thị hai ảnh theo yêu cầu</p></header>
+<main><section class="panel">
+<h2>Hình ảnh bài tập 42</h2>
+<div class="photos">
+<div class="photo"><h3>Ảnh avatar.jpg</h3><img src="avatar.jpg" alt="Ảnh thứ nhất" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="missing">Chưa có ảnh avatar.jpg<br>Hãy chép ảnh vào cùng thư mục với bt42.html</div></div>
+<div class="photo"><h3>Ảnh avatar.png</h3><img src="avatar.png" alt="Ảnh thứ hai" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="missing">Chưa có ảnh avatar.jpg1<br>Hãy chép ảnh vào cùng thư mục với bt42.html</div></div>
+</div>
+<p class="note"><b>Chỉnh sửa bằng Notepad:</b> tìm <code>src="avatar.jpg"</code> hoặc <code>src="avatar.jpg1"</code> và đổi thành tên ảnh thật khi cần. Lưu ý <code>.jpg1</code> không phải đuôi ảnh thông dụng; nếu ảnh không hiện khi deploy Netlify, hãy đổi tên tệp thành <code>avatar1.jpg</code> và sửa <code>src="avatar1.jpg"</code> tương ứng.</p>
+<a class="back" href="index.html">← Quay về trang chủ Bài 43</a>
+</section></main>
+</body>
+</html>
